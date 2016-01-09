@@ -1,0 +1,101 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bricks (0.1.2)
+  - bricks-Mantle (0.1.0):
+    - Mantle (~> 2.0.5)
+  - Expecta (1.0.5)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - ObjectiveSugar (1.1.0)
+  - OCMock (3.2)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - Specta (1.0.5)
+  - SVPullToRefresh (0.4.1)
+  - TLJsonFactory (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Bricks
+  - bricks-Mantle
+  - Expecta (~> 1.0)
+  - libextobjc (~> 0.4)
+  - ObjectiveSugar
+  - OCMock (~> 3.1)
+  - SDWebImage
+  - Specta (~> 1.0)
+  - SVPullToRefresh
+  - TLJsonFactory
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Bricks: c380078646ec88de088a43d2e81a6b26f7e560e7
+  bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
+  OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TLJsonFactory: 3aeb73712e192997f76a11b75bc7600cdb4f5b75
+
+COCOAPODS: 0.38.2

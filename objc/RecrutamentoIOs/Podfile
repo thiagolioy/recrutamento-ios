@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'RecrutamentoIOs' do
+   pod "bricks-Mantle"
+   pod "Bricks"
+   pod 'libextobjc', '~> 0.4'
+   pod 'ObjectiveSugar'
+   pod 'AFNetworking', '~> 2.5'
+   pod 'SVPullToRefresh'
+   pod 'SDWebImage'
+end
+
+target 'RecrutamentoIOsTests' do
+   pod 'Specta',   '~> 1.0'
+   pod 'TLJsonFactory'
+   pod 'Expecta',  '~> 1.0'
+   pod 'OCMock',   '~> 3.1'
+end
+
+target 'RecrutamentoIOsUITests' do
+
+end
