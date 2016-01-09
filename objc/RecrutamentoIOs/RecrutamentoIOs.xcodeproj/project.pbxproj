@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205FD01E1C41795F00B7F5AA /* show.json in Resources */ = {isa = PBXBuildFile; fileRef = 205FD01D1C41795F00B7F5AA /* show.json */; };
+		205FD0211C4179FF00B7F5AA /* RIShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0201C4179FF00B7F5AA /* RIShow.m */; };
+		205FD0231C417C7F00B7F5AA /* RIShowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0221C417C7F00B7F5AA /* RIShowSpec.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
 		20D182441C41763700B57DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182431C41763700B57DD8 /* ViewController.m */; };
@@ -37,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		02C2F9FE104A3653FB1CA212 /* Pods-RecrutamentoIOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.debug.xcconfig"; sourceTree = "<group>"; };
+		205FD01D1C41795F00B7F5AA /* show.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = show.json; sourceTree = "<group>"; };
+		205FD01F1C4179FF00B7F5AA /* RIShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShow.h; sourceTree = "<group>"; };
+		205FD0201C4179FF00B7F5AA /* RIShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShow.m; sourceTree = "<group>"; };
+		205FD0221C417C7F00B7F5AA /* RIShowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowSpec.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D1823D1C41763700B57DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D1823F1C41763700B57DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +96,8 @@
 		205FD00C1C4177F600B7F5AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				205FD01F1C4179FF00B7F5AA /* RIShow.h */,
+				205FD0201C4179FF00B7F5AA /* RIShow.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 		205FD0131C41786700B7F5AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				205FD0221C417C7F00B7F5AA /* RIShowSpec.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +216,14 @@
 			path = Datasources;
 			sourceTree = "<group>";
 		};
+		205FD01C1C41794E00B7F5AA /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				205FD01D1C41795F00B7F5AA /* show.json */,
+			);
+			name = fixtures;
+			sourceTree = "<group>";
+		};
 		20D182301C41763700B57DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +274,7 @@
 		20D182551C41763700B57DD8 /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
+				205FD01C1C41794E00B7F5AA /* fixtures */,
 				205FD0161C41787F00B7F5AA /* Controllers */,
 				205FD01B1C4178B900B7F5AA /* Datasources */,
 				205FD0141C41786E00B7F5AA /* Helpers */,
@@ -363,6 +382,7 @@
 		20D182311C41763700B57DD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RI;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Thiago Lioy";
 				TargetAttributes = {
@@ -414,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205FD01E1C41795F00B7F5AA /* show.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +518,7 @@
 				20D182441C41763700B57DD8 /* ViewController.m in Sources */,
 				20D182411C41763700B57DD8 /* AppDelegate.m in Sources */,
 				20D1823E1C41763700B57DD8 /* main.m in Sources */,
+				205FD0211C4179FF00B7F5AA /* RIShow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205FD0231C417C7F00B7F5AA /* RIShowSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
