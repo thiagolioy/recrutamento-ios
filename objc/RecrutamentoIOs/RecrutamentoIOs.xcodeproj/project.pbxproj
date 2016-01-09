@@ -13,7 +13,6 @@
 		20D182471C41763700B57DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D182451C41763700B57DD8 /* Main.storyboard */; };
 		20D182491C41763700B57DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D182481C41763700B57DD8 /* Assets.xcassets */; };
 		20D1824C1C41763700B57DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D1824A1C41763700B57DD8 /* LaunchScreen.storyboard */; };
-		20D182571C41763700B57DD8 /* RecrutamentoIOsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182561C41763700B57DD8 /* RecrutamentoIOsTests.m */; };
 		20D182621C41763700B57DD8 /* RecrutamentoIOsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */; };
 		439EDCE68EFE123056BD5CC9 /* libPods-RecrutamentoIOs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED377EA8BE505958A694BF2 /* libPods-RecrutamentoIOs.a */; };
 		908DD4773A19822E6D3066F2 /* libPods-RecrutamentoIOsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0E7C395667EA1FD3033CF1 /* libPods-RecrutamentoIOsTests.a */; };
@@ -49,7 +48,6 @@
 		20D1824B1C41763700B57DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D1824D1C41763700B57DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D182521C41763700B57DD8 /* RecrutamentoIOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecrutamentoIOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20D182561C41763700B57DD8 /* RecrutamentoIOsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecrutamentoIOsTests.m; sourceTree = "<group>"; };
 		20D182581C41763700B57DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D1825D1C41763700B57DD8 /* RecrutamentoIOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecrutamentoIOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecrutamentoIOsUITests.m; sourceTree = "<group>"; };
@@ -88,6 +86,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205FD00C1C4177F600B7F5AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		205FD00D1C4177FF00B7F5AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20D182421C41763700B57DD8 /* ViewController.h */,
+				20D182431C41763700B57DD8 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		205FD00E1C41780500B7F5AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		205FD00F1C41780B00B7F5AA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		205FD0101C41781100B7F5AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		205FD0111C41782100B7F5AA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20D1823F1C41763700B57DD8 /* AppDelegate.h */,
+				20D182401C41763700B57DD8 /* AppDelegate.m */,
+				20D182481C41763700B57DD8 /* Assets.xcassets */,
+				20D1824D1C41763700B57DD8 /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		205FD0121C41783600B7F5AA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20D182451C41763700B57DD8 /* Main.storyboard */,
+				20D1824A1C41763700B57DD8 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		205FD0131C41786700B7F5AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		205FD0141C41786E00B7F5AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		205FD0151C41787700B7F5AA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		205FD0161C41787F00B7F5AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		205FD0171C41788B00B7F5AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		205FD0181C41789200B7F5AA /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		205FD0191C4178A300B7F5AA /* ModelContainers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelContainers;
+			sourceTree = "<group>";
+		};
+		205FD01A1C4178B000B7F5AA /* ModelContainers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelContainers;
+			sourceTree = "<group>";
+		};
+		205FD01B1C4178B900B7F5AA /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
 		20D182301C41763700B57DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +231,15 @@
 		20D1823B1C41763700B57DD8 /* RecrutamentoIOs */ = {
 			isa = PBXGroup;
 			children = (
-				20D1823F1C41763700B57DD8 /* AppDelegate.h */,
-				20D182401C41763700B57DD8 /* AppDelegate.m */,
-				20D182421C41763700B57DD8 /* ViewController.h */,
-				20D182431C41763700B57DD8 /* ViewController.m */,
-				20D182451C41763700B57DD8 /* Main.storyboard */,
-				20D182481C41763700B57DD8 /* Assets.xcassets */,
-				20D1824A1C41763700B57DD8 /* LaunchScreen.storyboard */,
-				20D1824D1C41763700B57DD8 /* Info.plist */,
+				205FD0191C4178A300B7F5AA /* ModelContainers */,
+				205FD0181C41789200B7F5AA /* Datasources */,
+				205FD0121C41783600B7F5AA /* Storyboards */,
+				205FD0111C41782100B7F5AA /* App */,
+				205FD0101C41781100B7F5AA /* Helpers */,
+				205FD00F1C41780B00B7F5AA /* Network */,
+				205FD00E1C41780500B7F5AA /* Views */,
+				205FD00D1C4177FF00B7F5AA /* Controllers */,
+				205FD00C1C4177F600B7F5AA /* Models */,
 				20D1823C1C41763700B57DD8 /* Supporting Files */,
 			);
 			path = RecrutamentoIOs;
@@ -137,7 +256,13 @@
 		20D182551C41763700B57DD8 /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
-				20D182561C41763700B57DD8 /* RecrutamentoIOsTests.m */,
+				205FD01B1C4178B900B7F5AA /* Datasources */,
+				205FD01A1C4178B000B7F5AA /* ModelContainers */,
+				205FD0171C41788B00B7F5AA /* Views */,
+				205FD0161C41787F00B7F5AA /* Controllers */,
+				205FD0151C41787700B7F5AA /* Network */,
+				205FD0141C41786E00B7F5AA /* Helpers */,
+				205FD0131C41786700B7F5AA /* Models */,
 				20D182581C41763700B57DD8 /* Info.plist */,
 			);
 			path = RecrutamentoIOsTests;
@@ -379,7 +504,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D182571C41763700B57DD8 /* RecrutamentoIOsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
