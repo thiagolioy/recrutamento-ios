@@ -10,6 +10,7 @@
 		205FD01E1C41795F00B7F5AA /* show.json in Resources */ = {isa = PBXBuildFile; fileRef = 205FD01D1C41795F00B7F5AA /* show.json */; };
 		205FD0211C4179FF00B7F5AA /* RIShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0201C4179FF00B7F5AA /* RIShow.m */; };
 		205FD0231C417C7F00B7F5AA /* RIShowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0221C417C7F00B7F5AA /* RIShowSpec.m */; };
+		205FD0261C4194A900B7F5AA /* RINetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0251C4194A900B7F5AA /* RINetworkClient.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
 		20D182441C41763700B57DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182431C41763700B57DD8 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 		205FD01F1C4179FF00B7F5AA /* RIShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShow.h; sourceTree = "<group>"; };
 		205FD0201C4179FF00B7F5AA /* RIShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShow.m; sourceTree = "<group>"; };
 		205FD0221C417C7F00B7F5AA /* RIShowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowSpec.m; sourceTree = "<group>"; };
+		205FD0241C4194A900B7F5AA /* RINetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RINetworkClient.h; sourceTree = "<group>"; };
+		205FD0251C4194A900B7F5AA /* RINetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RINetworkClient.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D1823D1C41763700B57DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D1823F1C41763700B57DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 		205FD00F1C41780B00B7F5AA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				205FD0241C4194A900B7F5AA /* RINetworkClient.h */,
+				205FD0251C4194A900B7F5AA /* RINetworkClient.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -515,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205FD0261C4194A900B7F5AA /* RINetworkClient.m in Sources */,
 				20D182441C41763700B57DD8 /* ViewController.m in Sources */,
 				20D182411C41763700B57DD8 /* AppDelegate.m in Sources */,
 				20D1823E1C41763700B57DD8 /* main.m in Sources */,

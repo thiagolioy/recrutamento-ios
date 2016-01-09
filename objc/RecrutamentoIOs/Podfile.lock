@@ -1,4 +1,7 @@
 PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
   - AFNetworking (2.6.3):
     - AFNetworking/NSURLConnection (= 2.6.3)
     - AFNetworking/NSURLSession (= 2.6.3)
@@ -72,6 +75,7 @@ PODS:
   - TLJsonFactory (0.1.0)
 
 DEPENDENCIES:
+  - AFNetworkActivityLogger (~> 2.0)
   - AFNetworking (~> 2.5)
   - Bricks
   - bricks-Mantle
@@ -85,6 +89,7 @@ DEPENDENCIES:
   - TLJsonFactory
 
 SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Bricks: c380078646ec88de088a43d2e81a6b26f7e560e7
   bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61

@@ -7,6 +7,7 @@ target 'RecrutamentoIOs' do
    pod 'libextobjc', '~> 0.4'
    pod 'ObjectiveSugar'
    pod 'AFNetworking', '~> 2.5'
+   pod 'AFNetworkActivityLogger', '~> 2.0'
    pod 'SVPullToRefresh'
    pod 'SDWebImage'
 end
