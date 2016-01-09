@@ -10,7 +10,7 @@
 #import <AFNetworking.h>
 #import <AFNetworkActivityLogger.h>
 #import "RIShow.h"
-
+#import <TSMessage.h>
 
 @interface RINetworkClient ()
 @property(nonatomic,strong) AFHTTPSessionManager *manager;
@@ -69,7 +69,11 @@ static RINetworkClient *_sharedInstance = nil;
         
         finally();
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        finally();       
+       
+        [TSMessage showNotificationWithTitle:@"Ops .. "
+                                    subtitle:@"An error just happened"
+                                        type:TSMessageNotificationTypeError];
+        finally();
     }];
 
 }

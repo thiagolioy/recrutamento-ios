@@ -12,6 +12,7 @@
 #import "RIShowsModelContainer.h"
 #import <SVPullToRefresh.h>
 #import <libextobjc/EXTScope.h>
+#import <TSMessage.h>
 
 @interface ViewController ()
 @property(nonatomic,weak) IBOutlet UICollectionView *collectionView;
@@ -123,6 +124,10 @@
         @strongify(self);
         [self.collectionView.infiniteScrollingView stopAnimating];
     };
+    
+    [TSMessage showNotificationWithTitle:@"Loading More"
+                                subtitle:@"More show in a sec .. "
+                                    type:TSMessageNotificationTypeMessage];
     
     [[RINetworkClient sharedClient] fetchPopularShowsOnPage:self.currentPage
                                                     success:successBlock

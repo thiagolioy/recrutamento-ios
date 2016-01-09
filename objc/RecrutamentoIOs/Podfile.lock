@@ -27,6 +27,7 @@ PODS:
   - bricks-Mantle (0.1.0):
     - Mantle (~> 2.0.5)
   - Expecta (1.0.5)
+  - HexColors (2.2.1)
   - libextobjc (0.4.1):
     - libextobjc/EXTADT (= 0.4.1)
     - libextobjc/EXTConcreteProtocol (= 0.4.1)
@@ -73,6 +74,8 @@ PODS:
   - Specta (1.0.5)
   - SVPullToRefresh (0.4.1)
   - TLJsonFactory (0.1.0)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
 
 DEPENDENCIES:
   - AFNetworkActivityLogger (~> 2.0)
@@ -87,6 +90,7 @@ DEPENDENCIES:
   - Specta (~> 1.0)
   - SVPullToRefresh
   - TLJsonFactory
+  - TSMessages
 
 SPEC CHECKSUMS:
   AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
@@ -94,6 +98,7 @@ SPEC CHECKSUMS:
   Bricks: c380078646ec88de088a43d2e81a6b26f7e560e7
   bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
@@ -102,5 +107,6 @@ SPEC CHECKSUMS:
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   TLJsonFactory: 3aeb73712e192997f76a11b75bc7600cdb4f5b75
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
 
 COCOAPODS: 0.38.2
