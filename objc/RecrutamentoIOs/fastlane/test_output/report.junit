@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites tests='5' failures='0'>
   <testsuite name='RIShowSpecSpec' tests='4' failures='0'>
-    <testcase classname='RIShowSpecSpec' name='test_RIShow__should_be_able_to_parse_json_into_obj' time='0.009'/>
+    <testcase classname='RIShowSpecSpec' name='test_RIShow__should_be_able_to_parse_json_into_obj' time='0.015'/>
     <testcase classname='RIShowSpecSpec' name='test_RIShow__should_have_a_Images_obj_from_kind' time='0.001'/>
     <testcase classname='RIShowSpecSpec' name='test_RIShow__should_have_a_valid_Images_obj' time='0.001'/>
     <testcase classname='RIShowSpecSpec' name='test_RIShow__should_have_a_valid_posterThumbImage' time='0.001'/>
   </testsuite>
   <testsuite name='RecrutamentoIOsUITests' tests='1' failures='0'>
-    <testcase classname='RecrutamentoIOsUITests' name='testExample' time='4.125'/>
+    <testcase classname='RecrutamentoIOsUITests' name='testExample' time='2.686'/>
   </testsuite>
 </testsuites>

@@ -33,12 +33,20 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan(scheme: "RecrutamentoIOs")
-    # lcov(
-    #   project_name: "RecrutamentoIOs",
-    #   scheme: "RecrutamentoIOs",
-    #   arch: "x86_64"
-    # )
+    scan(
+      scheme: "RecrutamentoIOs",
+      code_coverage: true
+    )
+    copy_legacy_coverage_data(
+      project_name: "RecrutamentoIOs",
+      scheme: "RecrutamentoIOs",
+      arch: "x86_64"
+    )
+    lcov(
+      project_name: "RecrutamentoIOs",
+      scheme: "RecrutamentoIOs",
+      arch: "x86_64"
+    )
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
