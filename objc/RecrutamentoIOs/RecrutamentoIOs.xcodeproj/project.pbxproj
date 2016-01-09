@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		205FD00D1C4177FF00B7F5AA /* Controllers */ = {
@@ -99,28 +99,28 @@
 				20D182421C41763700B57DD8 /* ViewController.h */,
 				20D182431C41763700B57DD8 /* ViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		205FD00E1C41780500B7F5AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		205FD00F1C41780B00B7F5AA /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		205FD0101C41781100B7F5AA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		205FD0111C41782100B7F5AA /* App */ = {
@@ -131,90 +131,90 @@
 				20D182481C41763700B57DD8 /* Assets.xcassets */,
 				20D1824D1C41763700B57DD8 /* Info.plist */,
 			);
-			name = App;
+			path = App;
 			sourceTree = "<group>";
 		};
 		205FD0121C41783600B7F5AA /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				20D182451C41763700B57DD8 /* Main.storyboard */,
 				20D1824A1C41763700B57DD8 /* LaunchScreen.storyboard */,
+				20D182451C41763700B57DD8 /* Main.storyboard */,
 			);
-			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		205FD0131C41786700B7F5AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		205FD0141C41786E00B7F5AA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		205FD0151C41787700B7F5AA /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		205FD0161C41787F00B7F5AA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		205FD0171C41788B00B7F5AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		205FD0181C41789200B7F5AA /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Datasources;
+			path = Datasources;
 			sourceTree = "<group>";
 		};
 		205FD0191C4178A300B7F5AA /* ModelContainers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ModelContainers;
+			path = ModelContainers;
 			sourceTree = "<group>";
 		};
 		205FD01A1C4178B000B7F5AA /* ModelContainers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ModelContainers;
+			path = ModelContainers;
 			sourceTree = "<group>";
 		};
 		205FD01B1C4178B900B7F5AA /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Datasources;
+			path = Datasources;
 			sourceTree = "<group>";
 		};
 		20D182301C41763700B57DD8 = {
 			isa = PBXGroup;
 			children = (
+				6307FD32F5C02F805F4270CA /* Frameworks */,
+				FB461E164A84D258A0EFD550 /* Pods */,
+				20D1823A1C41763700B57DD8 /* Products */,
 				20D1823B1C41763700B57DD8 /* RecrutamentoIOs */,
 				20D182551C41763700B57DD8 /* RecrutamentoIOsTests */,
 				20D182601C41763700B57DD8 /* RecrutamentoIOsUITests */,
-				20D1823A1C41763700B57DD8 /* Products */,
-				FB461E164A84D258A0EFD550 /* Pods */,
-				6307FD32F5C02F805F4270CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,16 +231,16 @@
 		20D1823B1C41763700B57DD8 /* RecrutamentoIOs */ = {
 			isa = PBXGroup;
 			children = (
-				205FD0191C4178A300B7F5AA /* ModelContainers */,
-				205FD0181C41789200B7F5AA /* Datasources */,
-				205FD0121C41783600B7F5AA /* Storyboards */,
 				205FD0111C41782100B7F5AA /* App */,
-				205FD0101C41781100B7F5AA /* Helpers */,
-				205FD00F1C41780B00B7F5AA /* Network */,
-				205FD00E1C41780500B7F5AA /* Views */,
 				205FD00D1C4177FF00B7F5AA /* Controllers */,
+				205FD0181C41789200B7F5AA /* Datasources */,
+				205FD0101C41781100B7F5AA /* Helpers */,
+				205FD0191C4178A300B7F5AA /* ModelContainers */,
 				205FD00C1C4177F600B7F5AA /* Models */,
+				205FD00F1C41780B00B7F5AA /* Network */,
+				205FD0121C41783600B7F5AA /* Storyboards */,
 				20D1823C1C41763700B57DD8 /* Supporting Files */,
+				205FD00E1C41780500B7F5AA /* Views */,
 			);
 			path = RecrutamentoIOs;
 			sourceTree = "<group>";
@@ -250,19 +250,19 @@
 			children = (
 				20D1823D1C41763700B57DD8 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		20D182551C41763700B57DD8 /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
-				205FD01B1C4178B900B7F5AA /* Datasources */,
-				205FD01A1C4178B000B7F5AA /* ModelContainers */,
-				205FD0171C41788B00B7F5AA /* Views */,
 				205FD0161C41787F00B7F5AA /* Controllers */,
-				205FD0151C41787700B7F5AA /* Network */,
+				205FD01B1C4178B900B7F5AA /* Datasources */,
 				205FD0141C41786E00B7F5AA /* Helpers */,
+				205FD01A1C4178B000B7F5AA /* ModelContainers */,
 				205FD0131C41786700B7F5AA /* Models */,
+				205FD0151C41787700B7F5AA /* Network */,
+				205FD0171C41788B00B7F5AA /* Views */,
 				20D182581C41763700B57DD8 /* Info.plist */,
 			);
 			path = RecrutamentoIOsTests;
@@ -271,8 +271,8 @@
 		20D182601C41763700B57DD8 /* RecrutamentoIOsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */,
 				20D182631C41763700B57DD8 /* Info.plist */,
+				20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */,
 			);
 			path = RecrutamentoIOsUITests;
 			sourceTree = "<group>";
@@ -537,6 +537,7 @@
 				20D182461C41763700B57DD8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		20D1824A1C41763700B57DD8 /* LaunchScreen.storyboard */ = {
@@ -545,6 +546,7 @@
 				20D1824B1C41763700B57DD8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -635,7 +637,7 @@
 			baseConfigurationReference = 02C2F9FE104A3653FB1CA212 /* Pods-RecrutamentoIOs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RecrutamentoIOs/Info.plist;
+				INFOPLIST_FILE = RecrutamentoIOs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tplioy.RecrutamentoIOs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,7 +649,7 @@
 			baseConfigurationReference = CB44DC6E18E8BFEFCC39B039 /* Pods-RecrutamentoIOs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RecrutamentoIOs/Info.plist;
+				INFOPLIST_FILE = RecrutamentoIOs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tplioy.RecrutamentoIOs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
