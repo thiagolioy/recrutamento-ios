@@ -10,4 +10,6 @@
 
 @interface RIShowsModelContainer : NSObject
 @property(nonatomic,strong) NSArray *shows;
+
+-(void)addMoreShows:(NSArray*)shows;
 @end

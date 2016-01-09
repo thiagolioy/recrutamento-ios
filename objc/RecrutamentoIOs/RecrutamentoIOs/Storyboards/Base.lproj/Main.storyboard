@@ -109,11 +109,20 @@
                                     <constraint firstAttribute="bottom" secondItem="TQj-Jl-xfY" secondAttribute="bottom" id="wRX-vj-euI"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="exV-mm-FXc">
+                                <rect key="frame" x="177" y="292" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="XkC-M7-VEC"/>
+                                    <constraint firstAttribute="width" constant="20" id="h0C-K6-knq"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="exV-mm-FXc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Du-bX-5iX"/>
                             <constraint firstAttribute="bottom" secondItem="1LK-HC-Nfa" secondAttribute="bottom" id="9I9-bB-IX2"/>
                             <constraint firstItem="1LK-HC-Nfa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CfO-SP-jxq"/>
+                            <constraint firstItem="exV-mm-FXc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SOw-33-bdB"/>
                             <constraint firstAttribute="trailing" secondItem="1LK-HC-Nfa" secondAttribute="trailing" id="Sal-e1-vuG"/>
                             <constraint firstItem="1LK-HC-Nfa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="U08-nz-YaV"/>
                         </constraints>
@@ -122,7 +131,9 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="exV-mm-FXc" id="iYE-9j-ZG0"/>
                         <outlet property="collectionView" destination="TQj-Jl-xfY" id="5Dq-Le-9oG"/>
+                        <outlet property="showsCollectionContainer" destination="1LK-HC-Nfa" id="HNG-8q-iai"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

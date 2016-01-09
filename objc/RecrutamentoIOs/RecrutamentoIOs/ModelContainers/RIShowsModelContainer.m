@@ -9,5 +9,9 @@
 #import "RIShowsModelContainer.h"
 
 @implementation RIShowsModelContainer
-
+-(void)addMoreShows:(NSArray*)shows{
+    NSMutableArray *mutable =  ((NSArray *)self.shows.copy).mutableCopy;
+    [mutable addObjectsFromArray:shows];
+    self.shows = (NSArray*)mutable.copy;
+}
 @end

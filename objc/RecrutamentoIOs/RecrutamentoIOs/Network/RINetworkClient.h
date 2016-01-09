@@ -13,5 +13,7 @@ typedef void (^Finally)(void);
 
 @interface RINetworkClient : NSObject
 + (instancetype)sharedClient;
--(void)fetchPopularShows:(FetchPopularShowsSuccess)success finally:(Finally)finally;
+-(void)fetchPopularShowsOnPage:(NSInteger)page
+                       success:(FetchPopularShowsSuccess)success
+                       finally:(Finally)finally;
 @end

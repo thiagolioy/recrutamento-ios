@@ -51,11 +51,13 @@ static RINetworkClient *_sharedInstance = nil;
 
 }
 
--(void)fetchPopularShows:(FetchPopularShowsSuccess)success finally:(Finally)finally{
+-(void)fetchPopularShowsOnPage:(NSInteger)page
+                       success:(FetchPopularShowsSuccess)success
+                       finally:(Finally)finally{
     NSDictionary *params = @{
                              @"extended":@"images",
-                             @"page":@"1",
-                             @"limit":@"20"
+                             @"page":[NSNumber numberWithInteger:page].stringValue,
+                             @"limit":@"30"
                              };
 
     [self.manager GET:@"shows/popular" parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
