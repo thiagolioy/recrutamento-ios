@@ -11,6 +11,9 @@
 		205FD0211C4179FF00B7F5AA /* RIShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0201C4179FF00B7F5AA /* RIShow.m */; };
 		205FD0231C417C7F00B7F5AA /* RIShowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0221C417C7F00B7F5AA /* RIShowSpec.m */; };
 		205FD0261C4194A900B7F5AA /* RINetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0251C4194A900B7F5AA /* RINetworkClient.m */; };
+		205FD0291C41A3B500B7F5AA /* RIShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0281C41A3B500B7F5AA /* RIShowCell.m */; };
+		205FD02C1C41A6AF00B7F5AA /* RIShowsModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */; };
+		205FD02F1C41A6F100B7F5AA /* RIShowsDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
 		20D182441C41763700B57DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182431C41763700B57DD8 /* ViewController.m */; };
@@ -47,6 +50,12 @@
 		205FD0221C417C7F00B7F5AA /* RIShowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowSpec.m; sourceTree = "<group>"; };
 		205FD0241C4194A900B7F5AA /* RINetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RINetworkClient.h; sourceTree = "<group>"; };
 		205FD0251C4194A900B7F5AA /* RINetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RINetworkClient.m; sourceTree = "<group>"; };
+		205FD0271C41A3B500B7F5AA /* RIShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowCell.h; sourceTree = "<group>"; };
+		205FD0281C41A3B500B7F5AA /* RIShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowCell.m; sourceTree = "<group>"; };
+		205FD02A1C41A6AF00B7F5AA /* RIShowsModelContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsModelContainer.h; sourceTree = "<group>"; };
+		205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainer.m; sourceTree = "<group>"; };
+		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
+		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D1823D1C41763700B57DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D1823F1C41763700B57DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +126,8 @@
 		205FD00E1C41780500B7F5AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				205FD0271C41A3B500B7F5AA /* RIShowCell.h */,
+				205FD0281C41A3B500B7F5AA /* RIShowCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +207,8 @@
 		205FD0181C41789200B7F5AA /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
+				205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */,
+				205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */,
 			);
 			path = Datasources;
 			sourceTree = "<group>";
@@ -203,6 +216,8 @@
 		205FD0191C4178A300B7F5AA /* ModelContainers */ = {
 			isa = PBXGroup;
 			children = (
+				205FD02A1C41A6AF00B7F5AA /* RIShowsModelContainer.h */,
+				205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */,
 			);
 			path = ModelContainers;
 			sourceTree = "<group>";
@@ -520,7 +535,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205FD02F1C41A6F100B7F5AA /* RIShowsDatasource.m in Sources */,
 				205FD0261C4194A900B7F5AA /* RINetworkClient.m in Sources */,
+				205FD02C1C41A6AF00B7F5AA /* RIShowsModelContainer.m in Sources */,
+				205FD0291C41A3B500B7F5AA /* RIShowCell.m in Sources */,
 				20D182441C41763700B57DD8 /* ViewController.m in Sources */,
 				20D182411C41763700B57DD8 /* AppDelegate.m in Sources */,
 				20D1823E1C41763700B57DD8 /* main.m in Sources */,
