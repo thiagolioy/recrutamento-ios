@@ -152,12 +152,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		205FD00F1C41780B00B7F5AA /* Network */ = {
+		205FD00F1C41780B00B7F5AA /* ApiClient */ = {
 			isa = PBXGroup;
 			children = (
 				205FD0241C4194A900B7F5AA /* RINetworkClient.h */,
 				205FD0251C4194A900B7F5AA /* RINetworkClient.m */,
 			);
+			name = ApiClient;
 			path = Network;
 			sourceTree = "<group>";
 		};
@@ -310,7 +311,7 @@
 				205FD0101C41781100B7F5AA /* Helpers */,
 				205FD0191C4178A300B7F5AA /* ModelContainers */,
 				205FD00C1C4177F600B7F5AA /* Models */,
-				205FD00F1C41780B00B7F5AA /* Network */,
+				205FD00F1C41780B00B7F5AA /* ApiClient */,
 				205FD0121C41783600B7F5AA /* Storyboards */,
 				20D1823C1C41763700B57DD8 /* Supporting Files */,
 				205FD00E1C41780500B7F5AA /* Views */,
