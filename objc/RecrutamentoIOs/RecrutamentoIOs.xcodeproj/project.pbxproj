@@ -17,6 +17,8 @@
 		205FD02C1C41A6AF00B7F5AA /* RIShowsModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */; };
 		205FD02F1C41A6F100B7F5AA /* RIShowsDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */; };
 		205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */; };
+		207E3FF91C421C7D0046B3FF /* RINetworkClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */; };
+		207E3FFB1C42203B0046B3FF /* error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 207E3FFA1C42203B0046B3FF /* error_response.json */; };
 		20CE0DB21C420AA3004C7562 /* RIStubsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
@@ -66,6 +68,8 @@
 		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
 		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
 		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainerSpec.m; sourceTree = "<group>"; };
+		207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RINetworkClientSpec.m; path = RecrutamentoIOsTests/RINetworkClientSpec.m; sourceTree = SOURCE_ROOT; };
+		207E3FFA1C42203B0046B3FF /* error_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error_response.json; sourceTree = "<group>"; };
 		20CE0DB01C420AA3004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
 		20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +204,7 @@
 		205FD0151C41787700B7F5AA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			children = (
 				205FD01D1C41795F00B7F5AA /* show.json */,
 				2055E2F41C421A8400B24DBB /* popular_shows.json */,
+				207E3FFA1C42203B0046B3FF /* error_response.json */,
 			);
 			path = fixtures;
 			sourceTree = "<group>";
@@ -490,6 +496,7 @@
 			files = (
 				2055E2F51C421A8400B24DBB /* popular_shows.json in Resources */,
 				205FD01E1C41795F00B7F5AA /* show.json in Resources */,
+				207E3FFB1C42203B0046B3FF /* error_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */,
+				207E3FF91C421C7D0046B3FF /* RINetworkClientSpec.m in Sources */,
 				20CE0DB21C420AA3004C7562 /* RIStubsHelper.m in Sources */,
 				205FD0231C417C7F00B7F5AA /* RIShowSpec.m in Sources */,
 				2059A16F1C420DC00055EE12 /* RIShowsDatasourceSpec.m in Sources */,
