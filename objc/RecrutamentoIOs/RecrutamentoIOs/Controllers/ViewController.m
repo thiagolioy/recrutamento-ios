@@ -12,6 +12,7 @@
 #import "RIShowsModelContainer.h"
 #import <SVPullToRefresh.h>
 #import <libextobjc/EXTScope.h>
+#import <TSMessage.h>
 
 @interface ViewController ()
 @property(nonatomic,weak) IBOutlet UICollectionView *collectionView;
@@ -20,20 +21,22 @@
 @property(nonatomic,assign) NSInteger currentPage;
 @property(nonatomic,strong) RIShowsDatasource *datasource;
 @property(nonatomic,strong) RIShowsModelContainer *modelContainer;
+@property(nonatomic,assign) BOOL hasNextPage;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupInitialCurrentPageValue];
+    [self setupInitialValues];
     [self fetchPopularShows];
     [self setupPullRefresh];
     [self setupInfiniteScroll];
 }
 
--(void)setupInitialCurrentPageValue{
+-(void)setupInitialValues{
     self.currentPage = 1;
+    self.hasNextPage = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,7 +49,7 @@
     @weakify(self);
     id handler = ^{
         @strongify(self);
-        self.currentPage = 1;
+        [self setupInitialValues];
         [self fetchPopularShows];
         [self.collectionView.pullToRefreshView stopAnimating];
     };
@@ -69,10 +72,20 @@
     @weakify(self);
     id handler = ^{
         @strongify(self);
+        if([self shouldHandleNoMorePagesToFetchFlow])return;
         self.currentPage++;
         [self fetchAddittionalPopularShows];
     };
     [self.collectionView addInfiniteScrollingWithActionHandler:handler];
+}
+
+-(BOOL)shouldHandleNoMorePagesToFetchFlow{
+    if(self.hasNextPage) return NO;
+    
+    [TSMessage showNotificationWithTitle:@"Ops .. "
+                                subtitle:@"Your have no more pages to fetch"
+                                    type:TSMessageNotificationTypeMessage];
+    return YES;
 }
 
 -(void)setupDatasource{
@@ -114,8 +127,9 @@
 
 -(void)fetchAddittionalPopularShows{
     @weakify(self);
-    id successBlock = ^(NSArray *shows) {
+    id successBlock = ^(NSArray *shows, BOOL hasNextPage) {
         @strongify(self);
+        self.hasNextPage = hasNextPage;
         [self.modelContainer addMoreShows:shows];
         [self.collectionView reloadData];
     };

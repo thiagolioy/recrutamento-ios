@@ -75,9 +75,13 @@ static RINetworkClient *_sharedInstance = nil;
         
         if(failToParseResponse)
             [self handleError:error];
-        else
-            success(result);
-        
+        else{
+            NSHTTPURLResponse *response = (NSHTTPURLResponse *)task.response;
+            NSNumber *paginationCount = [response.allHeaderFields objectForKey:@"x-pagination-page-count"];
+            BOOL hasNextPage = paginationCount.integerValue > page;
+            success(result,hasNextPage);
+        }
+
         finally();
     };
     
@@ -94,6 +98,7 @@ static RINetworkClient *_sharedInstance = nil;
     
 
 }
+
 
 -(void)sendErrorMsg:(NSString*)errorMsg{
     [TSMessage showNotificationWithTitle:@"Ops .. "

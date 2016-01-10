@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^FetchPopularShowsSuccess)(NSArray *shows);
+typedef void (^FetchPopularShowsSuccess)(NSArray *shows, BOOL hasNextPage);
 typedef void (^Finally)(void);
 
 @interface RINetworkClient : NSObject
