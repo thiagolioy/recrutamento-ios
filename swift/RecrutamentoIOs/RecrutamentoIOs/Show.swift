@@ -15,5 +15,16 @@ class Show: Model {
     let year  = Property<Int>(key: "year")
     let traktId  = Property<Int>(key: "ids.trakt")
     let thumb  = Property<String>(key: "images.poster.thumb")
+    
+    static func parseJSONArray(array:JSON) ->[Show] {
+        var shows:[Show] = []
+        
+        for anItem in array{
+            let s = Show(json:anItem)
+            shows.append(s)
+            print(shows.count)
+        }
+        return shows
+    }
 }
 
