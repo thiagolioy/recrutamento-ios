@@ -57,7 +57,7 @@ describe(@"RINetworkClient", ^{
     context(@"invalida error", ^{
         it(@"should call sendErrorMsg when handlerError method is called", ^{
             id clientMock = [OCMockObject partialMockForObject:sharedClient];
-            [[clientMock expect] sendErrorMsg:OCMOCK_ANY];
+            [[[clientMock expect] andForwardToRealObject]sendErrorMsg:OCMOCK_ANY];
             [sharedClient handleError:[NSError errorWithDomain:@"" code:-1009 userInfo:nil]];
             [clientMock verify];
             [clientMock stopMocking];

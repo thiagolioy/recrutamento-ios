@@ -19,6 +19,7 @@
 		205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */; };
 		207E3FF91C421C7D0046B3FF /* RINetworkClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */; };
 		207E3FFB1C42203B0046B3FF /* error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 207E3FFA1C42203B0046B3FF /* error_response.json */; };
+		209FB7B11C4222F700AAF65C /* RIViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FB7B01C4222F700AAF65C /* RIViewControllerSpec.m */; };
 		20CE0DB21C420AA3004C7562 /* RIStubsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
@@ -70,6 +71,7 @@
 		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainerSpec.m; sourceTree = "<group>"; };
 		207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RINetworkClientSpec.m; path = RecrutamentoIOsTests/RINetworkClientSpec.m; sourceTree = SOURCE_ROOT; };
 		207E3FFA1C42203B0046B3FF /* error_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error_response.json; sourceTree = "<group>"; };
+		209FB7B01C4222F700AAF65C /* RIViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIViewControllerSpec.m; path = RecrutamentoIOsTests/RIViewControllerSpec.m; sourceTree = SOURCE_ROOT; };
 		20CE0DB01C420AA3004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
 		20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +214,7 @@
 		205FD0161C41787F00B7F5AA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				209FB7B01C4222F700AAF65C /* RIViewControllerSpec.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -652,6 +655,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209FB7B11C4222F700AAF65C /* RIViewControllerSpec.m in Sources */,
 				205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */,
 				207E3FF91C421C7D0046B3FF /* RINetworkClientSpec.m in Sources */,
 				20CE0DB21C420AA3004C7562 /* RIStubsHelper.m in Sources */,
