@@ -69,9 +69,9 @@
 		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
 		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
 		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainerSpec.m; sourceTree = "<group>"; };
-		207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RINetworkClientSpec.m; path = RecrutamentoIOsTests/RINetworkClientSpec.m; sourceTree = SOURCE_ROOT; };
+		207E3FF81C421C7D0046B3FF /* RINetworkClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RINetworkClientSpec.m; sourceTree = "<group>"; };
 		207E3FFA1C42203B0046B3FF /* error_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error_response.json; sourceTree = "<group>"; };
-		209FB7B01C4222F700AAF65C /* RIViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIViewControllerSpec.m; path = RecrutamentoIOsTests/RIViewControllerSpec.m; sourceTree = SOURCE_ROOT; };
+		209FB7B01C4222F700AAF65C /* RIViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIViewControllerSpec.m; sourceTree = "<group>"; };
 		20CE0DB01C420AA3004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
 		20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,9 +263,9 @@
 		205FD01C1C41794E00B7F5AA /* fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				205FD01D1C41795F00B7F5AA /* show.json */,
-				2055E2F41C421A8400B24DBB /* popular_shows.json */,
 				207E3FFA1C42203B0046B3FF /* error_response.json */,
+				2055E2F41C421A8400B24DBB /* popular_shows.json */,
+				205FD01D1C41795F00B7F5AA /* show.json */,
 			);
 			path = fixtures;
 			sourceTree = "<group>";
@@ -283,11 +283,11 @@
 			isa = PBXGroup;
 			children = (
 				6307FD32F5C02F805F4270CA /* Frameworks */,
+				5A34DF25F7E5A53784F6E3D9 /* Pods */,
 				20D1823A1C41763700B57DD8 /* Products */,
 				20D1823B1C41763700B57DD8 /* RecrutamentoIOs */,
 				20D182551C41763700B57DD8 /* RecrutamentoIOsTests */,
 				20D182601C41763700B57DD8 /* RecrutamentoIOsUITests */,
-				5A34DF25F7E5A53784F6E3D9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
