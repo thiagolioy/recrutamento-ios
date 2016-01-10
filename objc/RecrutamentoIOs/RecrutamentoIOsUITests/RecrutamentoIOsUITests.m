@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <Expecta.h>
-#import "RIStubsHelper.h"
+
 @interface RecrutamentoIOsUITests : XCTestCase
 
 @end

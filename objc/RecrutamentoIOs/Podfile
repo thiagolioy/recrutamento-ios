@@ -22,4 +22,5 @@ target 'RecrutamentoIOsTests' do
 end
 
 target 'RecrutamentoIOsUITests' do
+   pod 'Expecta',  '~> 1.0'
 end
