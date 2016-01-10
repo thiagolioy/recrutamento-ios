@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.1.4)
+  - Kingfisher (1.9.1)
+  - ModelRocket (1.2.1)
+  - netfox (1.7.1)
+  - Nimble (3.0.0)
+  - Quick (0.8.0)
+  - TLJsonFactory (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Kingfisher
+  - ModelRocket
+  - netfox
+  - Nimble
+  - Quick
+  - TLJsonFactory
+
+SPEC CHECKSUMS:
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Kingfisher: 98fedd5d44d982b331fc7303f9f6144b7d8ba289
+  ModelRocket: 71a037ed1f96d69745861a35c40ed1a55cdf5d94
+  netfox: 946ee64919f0413b9e09ffcbf2ac41afb454feb5
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  TLJsonFactory: 3aeb73712e192997f76a11b75bc7600cdb4f5b75
+
+COCOAPODS: 0.39.0
