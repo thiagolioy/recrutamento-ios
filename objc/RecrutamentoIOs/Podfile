@@ -13,13 +13,18 @@ target 'RecrutamentoIOs' do
    pod 'SDWebImage'
 end
 
+def test_commons
+  pod 'TLJsonFactory'
+  pod 'Expecta',  '~> 1.0'
+  pod 'OHHTTPStubs', '~> 4.2'
+end
+
 target 'RecrutamentoIOsTests' do
    pod 'Specta',   '~> 1.0'
-   pod 'TLJsonFactory'
-   pod 'Expecta',  '~> 1.0'
    pod 'OCMock',   '~> 3.1'
+   test_commons
 end
 
 target 'RecrutamentoIOsUITests' do
-
+  test_commons
 end

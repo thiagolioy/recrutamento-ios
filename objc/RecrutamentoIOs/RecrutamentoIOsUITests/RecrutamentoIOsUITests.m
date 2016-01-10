@@ -7,7 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import <Expecta.h>
+#import "RIStubsHelper.h"
 @interface RecrutamentoIOsUITests : XCTestCase
 
 @end
@@ -16,7 +17,6 @@
 
 - (void)setUp {
     [super setUp];
-    
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
     // In UI tests it is usually best to stop immediately when a failure occurs.
@@ -34,7 +34,10 @@
 
 - (void)testExample {
     // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    [[[XCUIApplication alloc] init].navigationBars[@"Shows"].staticTexts[@"Shows"] tap];
+    XCUIElementQuery *cells = [[XCUIApplication alloc] init].collectionViews.cells;
+    expect(cells.count).to.equal(12);
 }
 
 @end

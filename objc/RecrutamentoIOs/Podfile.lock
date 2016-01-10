@@ -68,6 +68,19 @@ PODS:
   - Mantle/extobjc (2.0.6)
   - ObjectiveSugar (1.1.0)
   - OCMock (3.2)
+  - OHHTTPStubs (4.7.0):
+    - OHHTTPStubs/Default (= 4.7.0)
+  - OHHTTPStubs/Core (4.7.0)
+  - OHHTTPStubs/Default (4.7.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.7.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.7.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.7.0)
   - SDWebImage (3.7.4):
     - SDWebImage/Core (= 3.7.4)
   - SDWebImage/Core (3.7.4)
@@ -86,6 +99,7 @@ DEPENDENCIES:
   - libextobjc (~> 0.4)
   - ObjectiveSugar
   - OCMock (~> 3.1)
+  - OHHTTPStubs (~> 4.2)
   - SDWebImage
   - Specta (~> 1.0)
   - SVPullToRefresh
@@ -103,6 +117,7 @@ SPEC CHECKSUMS:
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
   OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
+  OHHTTPStubs: d2bf6a0f407620d67e75a1d3f12d86a2b1dd15c0
   SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c

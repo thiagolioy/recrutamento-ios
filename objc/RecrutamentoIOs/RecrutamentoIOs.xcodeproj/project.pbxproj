@@ -15,6 +15,8 @@
 		205FD02C1C41A6AF00B7F5AA /* RIShowsModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */; };
 		205FD02F1C41A6F100B7F5AA /* RIShowsDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */; };
 		205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */; };
+		20CE0DA91C4204EA004C7562 /* RIStubsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE0DA81C4204EA004C7562 /* RIStubsHelper.m */; };
+		20CE0DAC1C420625004C7562 /* shows.json in Resources */ = {isa = PBXBuildFile; fileRef = 20CE0DAB1C420625004C7562 /* shows.json */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
 		20D182441C41763700B57DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182431C41763700B57DD8 /* ViewController.m */; };
@@ -24,6 +26,7 @@
 		20D182621C41763700B57DD8 /* RecrutamentoIOsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */; };
 		439EDCE68EFE123056BD5CC9 /* libPods-RecrutamentoIOs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED377EA8BE505958A694BF2 /* libPods-RecrutamentoIOs.a */; };
 		908DD4773A19822E6D3066F2 /* libPods-RecrutamentoIOsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0E7C395667EA1FD3033CF1 /* libPods-RecrutamentoIOsTests.a */; };
+		A2DBB8BACAF02CACD17E2351 /* libPods-RecrutamentoIOsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A68C95D016219B6793B47F8 /* libPods-RecrutamentoIOsUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
 		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
 		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIShowsModelContainerSpec.m; path = RecrutamentoIOsTests/RIShowsModelContainerSpec.m; sourceTree = SOURCE_ROOT; };
+		20CE0DA71C4204EA004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
+		20CE0DA81C4204EA004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
+		20CE0DAB1C420625004C7562 /* shows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shows.json; path = ../RecrutamentoIOsUITests/shows.json; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D1823D1C41763700B57DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D1823F1C41763700B57DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +80,11 @@
 		20D182611C41763700B57DD8 /* RecrutamentoIOsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecrutamentoIOsUITests.m; sourceTree = "<group>"; };
 		20D182631C41763700B57DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A2125D9FFEA0605EBC676B7 /* Pods-RecrutamentoIOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsTests/Pods-RecrutamentoIOsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A68C95D016219B6793B47F8 /* libPods-RecrutamentoIOsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecrutamentoIOsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		369EEF95CE5D35305AA22DD2 /* Pods-RecrutamentoIOsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsTests/Pods-RecrutamentoIOsTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C0E7C395667EA1FD3033CF1 /* libPods-RecrutamentoIOsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecrutamentoIOsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44906E8F3F225974DB8952B3 /* Pods-RecrutamentoIOsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5372B563BE93B3656B67DF06 /* Pods-RecrutamentoIOsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8ED377EA8BE505958A694BF2 /* libPods-RecrutamentoIOs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecrutamentoIOs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB44DC6E18E8BFEFCC39B039 /* Pods-RecrutamentoIOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DBB8BACAF02CACD17E2351 /* libPods-RecrutamentoIOsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +252,20 @@
 		205FD01C1C41794E00B7F5AA /* fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				20CE0DAB1C420625004C7562 /* shows.json */,
 				205FD01D1C41795F00B7F5AA /* show.json */,
 			);
 			name = fixtures;
+			sourceTree = "<group>";
+		};
+		20CE0DAD1C42062D004C7562 /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				20CE0DA71C4204EA004C7562 /* RIStubsHelper.h */,
+				20CE0DA81C4204EA004C7562 /* RIStubsHelper.m */,
+			);
+			name = TestHelpers;
+			path = ../RecrutamentoIOsUITests;
 			sourceTree = "<group>";
 		};
 		20D182301C41763700B57DD8 = {
@@ -297,6 +318,7 @@
 		20D182551C41763700B57DD8 /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
+				20CE0DAD1C42062D004C7562 /* TestHelpers */,
 				205FD01C1C41794E00B7F5AA /* fixtures */,
 				205FD0161C41787F00B7F5AA /* Controllers */,
 				205FD01B1C4178B900B7F5AA /* Datasources */,
@@ -324,6 +346,7 @@
 			children = (
 				8ED377EA8BE505958A694BF2 /* libPods-RecrutamentoIOs.a */,
 				3C0E7C395667EA1FD3033CF1 /* libPods-RecrutamentoIOsTests.a */,
+				2A68C95D016219B6793B47F8 /* libPods-RecrutamentoIOsUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -335,6 +358,8 @@
 				CB44DC6E18E8BFEFCC39B039 /* Pods-RecrutamentoIOs.release.xcconfig */,
 				2A2125D9FFEA0605EBC676B7 /* Pods-RecrutamentoIOsTests.debug.xcconfig */,
 				369EEF95CE5D35305AA22DD2 /* Pods-RecrutamentoIOsTests.release.xcconfig */,
+				44906E8F3F225974DB8952B3 /* Pods-RecrutamentoIOsUITests.debug.xcconfig */,
+				5372B563BE93B3656B67DF06 /* Pods-RecrutamentoIOsUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -385,9 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D1826C1C41763700B57DD8 /* Build configuration list for PBXNativeTarget "RecrutamentoIOsUITests" */;
 			buildPhases = (
+				97390F7A051742A0200FC950 /* Check Pods Manifest.lock */,
 				20D182591C41763700B57DD8 /* Sources */,
 				20D1825A1C41763700B57DD8 /* Frameworks */,
 				20D1825B1C41763700B57DD8 /* Resources */,
+				D93026B083B7343A881327C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -465,12 +492,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CE0DAC1C420625004C7562 /* shows.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		97390F7A051742A0200FC950 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C6884205D0ACA891916D790C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -514,6 +557,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D93026B083B7343A881327C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E3A1DE0802B3E55A5CD94016 /* Copy Pods Resources */ = {
@@ -562,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CE0DA91C4204EA004C7562 /* RIStubsHelper.m in Sources */,
 				20D182621C41763700B57DD8 /* RecrutamentoIOsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,6 +798,7 @@
 		};
 		20D1826D1C41763700B57DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44906E8F3F225974DB8952B3 /* Pods-RecrutamentoIOsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RecrutamentoIOsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -751,6 +811,7 @@
 		};
 		20D1826E1C41763700B57DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5372B563BE93B3656B67DF06 /* Pods-RecrutamentoIOsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RecrutamentoIOsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
