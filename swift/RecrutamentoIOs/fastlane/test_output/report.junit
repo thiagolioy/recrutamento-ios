@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests='2' failures='0'>
+  <testsuite name='RecrutamentoIOsTests.ShowSpec' tests='1' failures='0'>
+    <testcase classname='RecrutamentoIOsTests.ShowSpec' name='Show__should_be_able_to_parse_json_into_obj_UsersthiagolioyDropboxdevelopermobilelabsrecrutamentoiosswiftRecrutamentoIOsRecrutamentoIOsTestsShowSpecswift_26' time='0.029'/>
+  </testsuite>
+  <testsuite name='RecrutamentoIOsUITests.RecrutamentoIOsUITests' tests='1' failures='0'>
+    <testcase classname='RecrutamentoIOsUITests.RecrutamentoIOsUITests' name='testExample' time='4.265'/>
+  </testsuite>
+</testsuites>
