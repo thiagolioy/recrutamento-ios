@@ -109,7 +109,7 @@
                                     <constraint firstAttribute="bottom" secondItem="TQj-Jl-xfY" secondAttribute="bottom" id="wRX-vj-euI"/>
                                 </constraints>
                             </view>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="exV-mm-FXc">
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="exV-mm-FXc">
                                 <rect key="frame" x="177" y="292" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="XkC-M7-VEC"/>

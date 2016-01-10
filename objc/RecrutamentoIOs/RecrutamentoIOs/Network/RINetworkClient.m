@@ -11,6 +11,12 @@
 #import <AFNetworkActivityLogger.h>
 #import "RIShow.h"
 #import <TSMessage.h>
+#import <libextobjc/EXTScope.h>
+
+typedef NS_ENUM(NSInteger, ErrorStatusCode) {
+    ServerErrorStatusCode = 500,
+    NoInternetErrorCode = -1009
+};
 
 @interface RINetworkClient ()
 @property(nonatomic,strong) AFHTTPSessionManager *manager;
@@ -59,23 +65,54 @@ static RINetworkClient *_sharedInstance = nil;
                              @"page":[NSNumber numberWithInteger:page].stringValue,
                              @"limit":@"30"
                              };
-
-    [self.manager GET:@"shows/popular" parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+    @weakify(self);
+    
+    id successBlock = ^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        @strongify(self);
         NSError *error = nil;
         NSArray *result = [RIShow parseArray:responseObject error:&error];
-        if(result){
+        BOOL failToParseResponse = result == nil;
+        
+        if(failToParseResponse)
+            [self handleError:error];
+        else
             success(result);
-        }
         
         finally();
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-       
-        [TSMessage showNotificationWithTitle:@"Ops .. "
-                                    subtitle:@"An error just happened"
-                                        type:TSMessageNotificationTypeError];
+    };
+    
+    id failureBlock = ^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        @strongify(self);
+        [self handleError:error];
         finally();
-    }];
+    };
+    
+    [self.manager GET:@"shows/popular"
+           parameters:params
+              success:successBlock
+              failure:failureBlock];
+    
 
+}
+
+-(void)sendErrorMsg:(NSString*)errorMsg{
+    [TSMessage showNotificationWithTitle:@"Ops .. "
+                                subtitle:errorMsg
+                                    type:TSMessageNotificationTypeError];
+}
+
+-(void)handleError:(NSError *)error{
+    NSDictionary *errors = @{
+                             @(NoInternetErrorCode):@"Your are offline, check your internet connection please!",
+                              @(ServerErrorStatusCode):@"Server error, try later.."
+                             };
+
+    NSString *errorMsg = @"An unexpected error just happened.. Try again";
+    if(error && [errors objectForKey:@(error.code)])
+        errorMsg = [errors objectForKey:@(error.code)];
+    
+    [self sendErrorMsg:errorMsg];
+    
 }
 
 @end
