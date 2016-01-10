@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		02C2F9FE104A3653FB1CA212 /* Pods-RecrutamentoIOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.debug.xcconfig"; sourceTree = "<group>"; };
-		2059A16E1C420DC00055EE12 /* RIShowsDatasourceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIShowsDatasourceSpec.m; path = RecrutamentoIOsTests/RIShowsDatasourceSpec.m; sourceTree = SOURCE_ROOT; };
+		2059A16E1C420DC00055EE12 /* RIShowsDatasourceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasourceSpec.m; sourceTree = "<group>"; };
 		205FD01D1C41795F00B7F5AA /* show.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = show.json; sourceTree = "<group>"; };
 		205FD01F1C4179FF00B7F5AA /* RIShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShow.h; sourceTree = "<group>"; };
 		205FD0201C4179FF00B7F5AA /* RIShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShow.m; sourceTree = "<group>"; };
