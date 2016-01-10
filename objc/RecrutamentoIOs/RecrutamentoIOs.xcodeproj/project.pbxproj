@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2055E2F51C421A8400B24DBB /* popular_shows.json in Resources */ = {isa = PBXBuildFile; fileRef = 2055E2F41C421A8400B24DBB /* popular_shows.json */; };
 		2059A16F1C420DC00055EE12 /* RIShowsDatasourceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2059A16E1C420DC00055EE12 /* RIShowsDatasourceSpec.m */; };
 		205FD01E1C41795F00B7F5AA /* show.json in Resources */ = {isa = PBXBuildFile; fileRef = 205FD01D1C41795F00B7F5AA /* show.json */; };
 		205FD0211C4179FF00B7F5AA /* RIShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0201C4179FF00B7F5AA /* RIShow.m */; };
@@ -16,7 +17,6 @@
 		205FD02C1C41A6AF00B7F5AA /* RIShowsModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */; };
 		205FD02F1C41A6F100B7F5AA /* RIShowsDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */; };
 		205FD03A1C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */; };
-		20CE0DAC1C420625004C7562 /* shows.json in Resources */ = {isa = PBXBuildFile; fileRef = 20CE0DAB1C420625004C7562 /* shows.json */; };
 		20CE0DB21C420AA3004C7562 /* RIStubsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */; };
 		20D1823E1C41763700B57DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1823D1C41763700B57DD8 /* main.m */; };
 		20D182411C41763700B57DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D182401C41763700B57DD8 /* AppDelegate.m */; };
@@ -51,6 +51,7 @@
 		09F8FB28859DDCCDB0715EC2 /* Pods-RecrutamentoIOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsTests/Pods-RecrutamentoIOsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B1BAAA9D01C7EE714B1EDA8 /* libPods-RecrutamentoIOsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecrutamentoIOsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B97A1166D3983EF4296A0C9 /* Pods-RecrutamentoIOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.debug.xcconfig"; sourceTree = "<group>"; };
+		2055E2F41C421A8400B24DBB /* popular_shows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = popular_shows.json; sourceTree = "<group>"; };
 		2059A16E1C420DC00055EE12 /* RIShowsDatasourceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasourceSpec.m; sourceTree = "<group>"; };
 		205FD01D1C41795F00B7F5AA /* show.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = show.json; sourceTree = "<group>"; };
 		205FD01F1C4179FF00B7F5AA /* RIShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShow.h; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
 		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
 		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainerSpec.m; sourceTree = "<group>"; };
-		20CE0DAB1C420625004C7562 /* shows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shows.json; sourceTree = "<group>"; };
 		20CE0DB01C420AA3004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
 		20CE0DB11C420AA3004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				205FD01D1C41795F00B7F5AA /* show.json */,
-				20CE0DAB1C420625004C7562 /* shows.json */,
+				2055E2F41C421A8400B24DBB /* popular_shows.json */,
 			);
 			path = fixtures;
 			sourceTree = "<group>";
@@ -488,6 +488,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2055E2F51C421A8400B24DBB /* popular_shows.json in Resources */,
 				205FD01E1C41795F00B7F5AA /* show.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +497,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CE0DAC1C420625004C7562 /* shows.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

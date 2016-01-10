@@ -34,6 +34,14 @@ describe(@"RIShow", ^{
     it(@"should have a valid posterThumbImage", ^{
         expect(show.images.posterThumb).to.equal(@"https://walter.trakt.us/images/shows/000/001/390/posters/thumb/93df9cd612.jpg");
     });
+    
+    it(@"should be able to parse shows", ^{
+        NSArray *showsDict = [TLJsonFactory tl_jsonArrayFromFile:@"popular_shows"];
+        NSError *error = nil;
+        NSArray *array = [RIShow parseArray:showsDict error:&error];
+        expect(error).to.beNil();
+        expect(array).toNot.beNil();
+    });
 });
 
 SpecEnd
