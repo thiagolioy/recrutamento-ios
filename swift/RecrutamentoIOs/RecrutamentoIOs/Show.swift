@@ -22,7 +22,6 @@ class Show: Model {
         for anItem in array{
             let s = Show(json:anItem)
             shows.append(s)
-            print(shows.count)
         }
         return shows
     }
