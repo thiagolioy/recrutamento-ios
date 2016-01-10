@@ -60,10 +60,10 @@
 		205FD02B1C41A6AF00B7F5AA /* RIShowsModelContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainer.m; sourceTree = "<group>"; };
 		205FD02D1C41A6F100B7F5AA /* RIShowsDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIShowsDatasource.h; sourceTree = "<group>"; };
 		205FD02E1C41A6F100B7F5AA /* RIShowsDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsDatasource.m; sourceTree = "<group>"; };
-		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIShowsModelContainerSpec.m; path = RecrutamentoIOsTests/RIShowsModelContainerSpec.m; sourceTree = SOURCE_ROOT; };
+		205FD0391C41FF4C00B7F5AA /* RIShowsModelContainerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIShowsModelContainerSpec.m; sourceTree = "<group>"; };
 		20CE0DA71C4204EA004C7562 /* RIStubsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIStubsHelper.h; sourceTree = "<group>"; };
 		20CE0DA81C4204EA004C7562 /* RIStubsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIStubsHelper.m; sourceTree = "<group>"; };
-		20CE0DAB1C420625004C7562 /* shows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shows.json; path = ../RecrutamentoIOsUITests/shows.json; sourceTree = "<group>"; };
+		20CE0DAB1C420625004C7562 /* shows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shows.json; sourceTree = "<group>"; };
 		20D182391C41763700B57DD8 /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D1823D1C41763700B57DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D1823F1C41763700B57DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -252,10 +252,10 @@
 		205FD01C1C41794E00B7F5AA /* fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				20CE0DAB1C420625004C7562 /* shows.json */,
 				205FD01D1C41795F00B7F5AA /* show.json */,
+				20CE0DAB1C420625004C7562 /* shows.json */,
 			);
-			name = fixtures;
+			path = fixtures;
 			sourceTree = "<group>";
 		};
 		20CE0DAD1C42062D004C7562 /* TestHelpers */ = {
@@ -264,8 +264,7 @@
 				20CE0DA71C4204EA004C7562 /* RIStubsHelper.h */,
 				20CE0DA81C4204EA004C7562 /* RIStubsHelper.m */,
 			);
-			name = TestHelpers;
-			path = ../RecrutamentoIOsUITests;
+			path = TestHelpers;
 			sourceTree = "<group>";
 		};
 		20D182301C41763700B57DD8 = {
@@ -318,15 +317,15 @@
 		20D182551C41763700B57DD8 /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
-				20CE0DAD1C42062D004C7562 /* TestHelpers */,
-				205FD01C1C41794E00B7F5AA /* fixtures */,
 				205FD0161C41787F00B7F5AA /* Controllers */,
 				205FD01B1C4178B900B7F5AA /* Datasources */,
 				205FD0141C41786E00B7F5AA /* Helpers */,
 				205FD01A1C4178B000B7F5AA /* ModelContainers */,
 				205FD0131C41786700B7F5AA /* Models */,
 				205FD0151C41787700B7F5AA /* Network */,
+				20CE0DAD1C42062D004C7562 /* TestHelpers */,
 				205FD0171C41788B00B7F5AA /* Views */,
+				205FD01C1C41794E00B7F5AA /* fixtures */,
 				20D182581C41763700B57DD8 /* Info.plist */,
 			);
 			path = RecrutamentoIOsTests;
