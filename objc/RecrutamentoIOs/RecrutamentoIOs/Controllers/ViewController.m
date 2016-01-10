@@ -39,10 +39,6 @@
     self.hasNextPage = YES;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(void)setupPullRefresh{
     [self fixSVPullToRefreshBug];
