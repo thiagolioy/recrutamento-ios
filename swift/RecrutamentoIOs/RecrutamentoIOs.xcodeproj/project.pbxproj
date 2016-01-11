@@ -116,7 +116,7 @@
 			children = (
 				20599F621C432B530022D382 /* ShowsDatasource.swift */,
 			);
-			name = Datasources;
+			path = Datasources;
 			sourceTree = "<group>";
 		};
 		20599F641C432C4C0022D382 /* ModelContainer */ = {
@@ -124,7 +124,7 @@
 			children = (
 				20599F651C432C650022D382 /* ShowContainer.swift */,
 			);
-			name = ModelContainer;
+			path = ModelContainer;
 			sourceTree = "<group>";
 		};
 		20599F671C43379D0022D382 /* Controllers */ = {
@@ -132,19 +132,19 @@
 			children = (
 				20807EFC1C42D6F900D4EBEA /* ViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		20599F681C4337A70022D382 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				20807EFE1C42D6F900D4EBEA /* Main.storyboard */,
-				20807F011C42D6F900D4EBEA /* Assets.xcassets */,
-				20807F031C42D6F900D4EBEA /* LaunchScreen.storyboard */,
-				20807F061C42D6F900D4EBEA /* Info.plist */,
 				20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */,
+				20807F011C42D6F900D4EBEA /* Assets.xcassets */,
+				20807F061C42D6F900D4EBEA /* Info.plist */,
+				20807F031C42D6F900D4EBEA /* LaunchScreen.storyboard */,
+				20807EFE1C42D6F900D4EBEA /* Main.storyboard */,
 			);
-			name = App;
+			path = App;
 			sourceTree = "<group>";
 		};
 		206B8AF71C43259600585468 /* Views */ = {
@@ -152,7 +152,7 @@
 			children = (
 				2003AD401C43261900508F61 /* RIShowCell.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		206C9D571C42DF6300D7973C /* Models */ = {
@@ -160,18 +160,18 @@
 			children = (
 				206C9D581C42DF7300D7973C /* Show.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		20807EEE1C42D6F900D4EBEA = {
 			isa = PBXGroup;
 			children = (
+				FC5FB49E4BC9FE43EA668A8A /* Frameworks */,
+				1ABF363B5F34724175D791B4 /* Pods */,
+				20807EF81C42D6F900D4EBEA /* Products */,
 				20807EF91C42D6F900D4EBEA /* RecrutamentoIOs */,
 				20807F0E1C42D6FA00D4EBEA /* RecrutamentoIOsTests */,
 				20807F191C42D6FA00D4EBEA /* RecrutamentoIOsUITests */,
-				20807EF81C42D6F900D4EBEA /* Products */,
-				1ABF363B5F34724175D791B4 /* Pods */,
-				FC5FB49E4BC9FE43EA668A8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,13 +188,13 @@
 		20807EF91C42D6F900D4EBEA /* RecrutamentoIOs */ = {
 			isa = PBXGroup;
 			children = (
+				208A303B1C431C8B001087AE /* ApiClient */,
 				20599F681C4337A70022D382 /* App */,
 				20599F671C43379D0022D382 /* Controllers */,
-				20599F641C432C4C0022D382 /* ModelContainer */,
 				20599F611C432B1F0022D382 /* Datasources */,
-				206B8AF71C43259600585468 /* Views */,
-				208A303B1C431C8B001087AE /* ApiClient */,
+				20599F641C432C4C0022D382 /* ModelContainer */,
 				206C9D571C42DF6300D7973C /* Models */,
+				206B8AF71C43259600585468 /* Views */,
 			);
 			path = RecrutamentoIOs;
 			sourceTree = "<group>";
@@ -202,8 +202,8 @@
 		20807F0E1C42D6FA00D4EBEA /* RecrutamentoIOsTests */ = {
 			isa = PBXGroup;
 			children = (
-				20B4CB4D1C42D90E0071D17C /* Models */,
 				20B4CB4C1C42D8FB0071D17C /* Fixtures */,
+				20B4CB4D1C42D90E0071D17C /* Models */,
 				20807F111C42D6FA00D4EBEA /* Info.plist */,
 				20A006B91C42E8D700A3A029 /* JsonLoadHelper.swift */,
 			);
@@ -213,8 +213,8 @@
 		20807F191C42D6FA00D4EBEA /* RecrutamentoIOsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				20807F1A1C42D6FA00D4EBEA /* RecrutamentoIOsUITests.swift */,
 				20807F1C1C42D6FA00D4EBEA /* Info.plist */,
+				20807F1A1C42D6FA00D4EBEA /* RecrutamentoIOsUITests.swift */,
 			);
 			path = RecrutamentoIOsUITests;
 			sourceTree = "<group>";
@@ -224,16 +224,16 @@
 			children = (
 				208A303C1C431CAB001087AE /* NetworkManager.swift */,
 			);
-			name = ApiClient;
+			path = ApiClient;
 			sourceTree = "<group>";
 		};
 		20B4CB4C1C42D8FB0071D17C /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				20B4CB4A1C42D8F70071D17C /* show.json */,
 				2090FAFA1C42FC7800A65CD3 /* popular_shows.json */,
+				20B4CB4A1C42D8F70071D17C /* show.json */,
 			);
-			name = Fixtures;
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		20B4CB4D1C42D90E0071D17C /* Models */ = {
@@ -241,7 +241,7 @@
 			children = (
 				20B4CB4E1C42D9420071D17C /* ShowSpec.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FC5FB49E4BC9FE43EA668A8A /* Frameworks */ = {
@@ -534,6 +534,7 @@
 				20807EFF1C42D6F900D4EBEA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		20807F031C42D6F900D4EBEA /* LaunchScreen.storyboard */ = {
@@ -542,6 +543,7 @@
 				20807F041C42D6F900D4EBEA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -637,7 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
-				INFOPLIST_FILE = RecrutamentoIOs/Info.plist;
+				INFOPLIST_FILE = RecrutamentoIOs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tplioy.RecrutamentoIOs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,7 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
-				INFOPLIST_FILE = RecrutamentoIOs/Info.plist;
+				INFOPLIST_FILE = RecrutamentoIOs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tplioy.RecrutamentoIOs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
