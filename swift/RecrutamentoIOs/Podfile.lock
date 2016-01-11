@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (3.1.4)
+  - Bricks (0.1.2)
   - Kingfisher (1.9.1)
   - ModelRocket (1.2.1)
   - netfox (1.7.1)
@@ -8,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
+  - Bricks
   - Kingfisher
   - ModelRocket
   - netfox
@@ -16,6 +18,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Bricks: c380078646ec88de088a43d2e81a6b26f7e560e7
   Kingfisher: 98fedd5d44d982b331fc7303f9f6144b7d8ba289
   ModelRocket: 71a037ed1f96d69745861a35c40ed1a55cdf5d94
   netfox: 946ee64919f0413b9e09ffcbf2ac41afb454feb5

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B6C715EBC4F40691977D414 /* Pods_RecrutamentoIOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B468BD43A785FA623DF41C52 /* Pods_RecrutamentoIOs.framework */; };
+		2003AD411C43261900508F61 /* RIShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003AD401C43261900508F61 /* RIShowCell.swift */; };
+		20599F631C432B530022D382 /* ShowsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20599F621C432B530022D382 /* ShowsDatasource.swift */; };
+		20599F661C432C650022D382 /* ShowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20599F651C432C650022D382 /* ShowContainer.swift */; };
 		206C9D591C42DF7300D7973C /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C9D581C42DF7300D7973C /* Show.swift */; };
 		20807EFB1C42D6F900D4EBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */; };
 		20807EFD1C42D6F900D4EBEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20807EFC1C42D6F900D4EBEA /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		1B382D8955DABEA2431CE979 /* Pods_RecrutamentoIOsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecrutamentoIOsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE3CED08C91768E5F6CDDDF /* Pods-RecrutamentoIOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.release.xcconfig"; sourceTree = "<group>"; };
+		2003AD401C43261900508F61 /* RIShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIShowCell.swift; sourceTree = "<group>"; };
+		20599F621C432B530022D382 /* ShowsDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsDatasource.swift; sourceTree = "<group>"; };
+		20599F651C432C650022D382 /* ShowContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowContainer.swift; sourceTree = "<group>"; };
 		206C9D581C42DF7300D7973C /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		20807EF71C42D6F900D4EBEA /* RecrutamentoIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecrutamentoIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +111,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		20599F611C432B1F0022D382 /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				20599F621C432B530022D382 /* ShowsDatasource.swift */,
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		20599F641C432C4C0022D382 /* ModelContainer */ = {
+			isa = PBXGroup;
+			children = (
+				20599F651C432C650022D382 /* ShowContainer.swift */,
+			);
+			name = ModelContainer;
+			sourceTree = "<group>";
+		};
+		206B8AF71C43259600585468 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2003AD401C43261900508F61 /* RIShowCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		206C9D571C42DF6300D7973C /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +168,9 @@
 		20807EF91C42D6F900D4EBEA /* RecrutamentoIOs */ = {
 			isa = PBXGroup;
 			children = (
+				20599F641C432C4C0022D382 /* ModelContainer */,
+				20599F611C432B1F0022D382 /* Datasources */,
+				206B8AF71C43259600585468 /* Views */,
 				208A303B1C431C8B001087AE /* ApiClient */,
 				206C9D571C42DF6300D7973C /* Models */,
 				20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */,
@@ -437,9 +470,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				208A303D1C431CAB001087AE /* NetworkManager.swift in Sources */,
+				20599F661C432C650022D382 /* ShowContainer.swift in Sources */,
 				206C9D591C42DF7300D7973C /* Show.swift in Sources */,
 				20807EFD1C42D6F900D4EBEA /* ViewController.swift in Sources */,
 				20807EFB1C42D6F900D4EBEA /* AppDelegate.swift in Sources */,
+				2003AD411C43261900508F61 /* RIShowCell.swift in Sources */,
+				20599F631C432B530022D382 /* ShowsDatasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
