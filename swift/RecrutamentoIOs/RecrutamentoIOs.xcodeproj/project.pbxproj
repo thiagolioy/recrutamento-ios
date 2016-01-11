@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B6C715EBC4F40691977D414 /* Pods_RecrutamentoIOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B468BD43A785FA623DF41C52 /* Pods_RecrutamentoIOs.framework */; };
+		19665B3B39E822BB71AA2D78 /* Pods_RecrutamentoIOsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D72417DB2F2B626151207C /* Pods_RecrutamentoIOsUITests.framework */; };
 		2003AD411C43261900508F61 /* RIShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003AD401C43261900508F61 /* RIShowCell.swift */; };
 		20599F631C432B530022D382 /* ShowsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20599F621C432B530022D382 /* ShowsDatasource.swift */; };
 		20599F661C432C650022D382 /* ShowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20599F651C432C650022D382 /* ShowContainer.swift */; };
@@ -67,10 +68,13 @@
 		20A006B91C42E8D700A3A029 /* JsonLoadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonLoadHelper.swift; sourceTree = "<group>"; };
 		20B4CB4A1C42D8F70071D17C /* show.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = show.json; sourceTree = "<group>"; };
 		20B4CB4E1C42D9420071D17C /* ShowSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSpec.swift; sourceTree = "<group>"; };
+		3661BDC3AD49943F45527021 /* Pods-RecrutamentoIOsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4393AAE036E9A2C61D9F4F12 /* Pods-RecrutamentoIOsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsTests/Pods-RecrutamentoIOsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3CACE693B3549C22C339BE /* Pods-RecrutamentoIOsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0D92C4C432B1021F7E35C5 /* Pods-RecrutamentoIOsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOsTests/Pods-RecrutamentoIOsTests.release.xcconfig"; sourceTree = "<group>"; };
 		AACDE415C5E31F31BE96F374 /* Pods-RecrutamentoIOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecrutamentoIOs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecrutamentoIOs/Pods-RecrutamentoIOs.debug.xcconfig"; sourceTree = "<group>"; };
 		B468BD43A785FA623DF41C52 /* Pods_RecrutamentoIOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecrutamentoIOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D72417DB2F2B626151207C /* Pods_RecrutamentoIOsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecrutamentoIOsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19665B3B39E822BB71AA2D78 /* Pods_RecrutamentoIOsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +112,8 @@
 				1FE3CED08C91768E5F6CDDDF /* Pods-RecrutamentoIOs.release.xcconfig */,
 				4393AAE036E9A2C61D9F4F12 /* Pods-RecrutamentoIOsTests.debug.xcconfig */,
 				9E0D92C4C432B1021F7E35C5 /* Pods-RecrutamentoIOsTests.release.xcconfig */,
+				8A3CACE693B3549C22C339BE /* Pods-RecrutamentoIOsUITests.debug.xcconfig */,
+				3661BDC3AD49943F45527021 /* Pods-RecrutamentoIOsUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 			children = (
 				B468BD43A785FA623DF41C52 /* Pods_RecrutamentoIOs.framework */,
 				1B382D8955DABEA2431CE979 /* Pods_RecrutamentoIOsTests.framework */,
+				C0D72417DB2F2B626151207C /* Pods_RecrutamentoIOsUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20807F251C42D6FA00D4EBEA /* Build configuration list for PBXNativeTarget "RecrutamentoIOsUITests" */;
 			buildPhases = (
+				CDB0DEA89ED208E0AC19490F /* Check Pods Manifest.lock */,
 				20807F121C42D6FA00D4EBEA /* Sources */,
 				20807F131C42D6FA00D4EBEA /* Frameworks */,
 				20807F141C42D6FA00D4EBEA /* Resources */,
+				72D35FA6EE8C7B0FA03F4E73 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -448,6 +458,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		72D35FA6EE8C7B0FA03F4E73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecrutamentoIOsUITests/Pods-RecrutamentoIOsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		891186DF6D890CA7971E10D5 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +489,21 @@
 			showEnvVarsInLog = 0;
 		};
 		8FF5FD46E13D898F5380A8DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB0DEA89ED208E0AC19490F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -688,6 +728,7 @@
 		};
 		20807F261C42D6FA00D4EBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3CACE693B3549C22C339BE /* Pods-RecrutamentoIOsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RecrutamentoIOsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -700,6 +741,7 @@
 		};
 		20807F271C42D6FA00D4EBEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3661BDC3AD49943F45527021 /* Pods-RecrutamentoIOsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RecrutamentoIOsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

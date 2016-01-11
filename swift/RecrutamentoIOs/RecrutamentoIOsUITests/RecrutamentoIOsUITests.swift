@@ -29,8 +29,9 @@ class RecrutamentoIOsUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIApplication().navigationBars["Shows"].staticTexts["Shows"].tap()
+        let cells = XCUIApplication().collectionViews.cells
+        XCTAssertEqual(cells.count,12);
     }
     
 }
