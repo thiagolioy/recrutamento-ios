@@ -127,6 +127,26 @@
 			name = ModelContainer;
 			sourceTree = "<group>";
 		};
+		20599F671C43379D0022D382 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20807EFC1C42D6F900D4EBEA /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		20599F681C4337A70022D382 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20807EFE1C42D6F900D4EBEA /* Main.storyboard */,
+				20807F011C42D6F900D4EBEA /* Assets.xcassets */,
+				20807F031C42D6F900D4EBEA /* LaunchScreen.storyboard */,
+				20807F061C42D6F900D4EBEA /* Info.plist */,
+				20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 		206B8AF71C43259600585468 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,17 +188,13 @@
 		20807EF91C42D6F900D4EBEA /* RecrutamentoIOs */ = {
 			isa = PBXGroup;
 			children = (
+				20599F681C4337A70022D382 /* App */,
+				20599F671C43379D0022D382 /* Controllers */,
 				20599F641C432C4C0022D382 /* ModelContainer */,
 				20599F611C432B1F0022D382 /* Datasources */,
 				206B8AF71C43259600585468 /* Views */,
 				208A303B1C431C8B001087AE /* ApiClient */,
 				206C9D571C42DF6300D7973C /* Models */,
-				20807EFA1C42D6F900D4EBEA /* AppDelegate.swift */,
-				20807EFC1C42D6F900D4EBEA /* ViewController.swift */,
-				20807EFE1C42D6F900D4EBEA /* Main.storyboard */,
-				20807F011C42D6F900D4EBEA /* Assets.xcassets */,
-				20807F031C42D6F900D4EBEA /* LaunchScreen.storyboard */,
-				20807F061C42D6F900D4EBEA /* Info.plist */,
 			);
 			path = RecrutamentoIOs;
 			sourceTree = "<group>";
